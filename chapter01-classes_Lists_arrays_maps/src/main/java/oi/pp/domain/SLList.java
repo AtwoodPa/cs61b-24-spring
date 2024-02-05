@@ -2,6 +2,7 @@ package oi.pp.domain;
 
 /**
  * Non-Naked Recursive Data StructureList
+ *
  * @author supanpan
  * @date 2024/02/04
  */
@@ -18,44 +19,52 @@ public class SLList {
     }
 
     /* 将first设为private，不向外暴露（访问控制，access control） */
-    private IntNode first;
+    // private IntNode first;
+    // 使用哨兵节点sentinel来代替first
+    private IntNode sentinel;
     // 链表的长度，缓存的方式
     private int size;
 
     public SLList() {
-        first = null;
+        sentinel = new IntNode(42, null);
         size = 0;
     }
+
     public SLList(int x) {
-       first = new IntNode(x, null);
-       size = 1;// 链表初始化的时候长度为1
+        sentinel = new IntNode(42, null);
+        sentinel.next = new IntNode(x, null);
+        size = 1;// 链表初始化的时候长度为1
     }
 
     public void addFirst(int x) {
         //  new IntNode(x, first) => 表示x是新的头节点，first作为x值的后续元素
-        first = new IntNode(x, first);
+        // first = new IntNode(x, first);
+        sentinel.next = new IntNode(x, sentinel.next);
         // 当链表中的元素个数增加时，size也要增加1
         size += 1;
     }
+
     public int getFirst() {
-        return first.item;
+        return sentinel.next.item;
     }
+
     /**
      * 添加元素到链表的末尾
+     *
      * @param x
      */
-    public void addLast(int x){
+    public void addLast(int x) {
         // 当链表中的元素个数增加时，size也要增加1
         size += 1;
         // 修复空链表的bug
-        if (first == null) {
-            first = new IntNode(x, null);
-            return;
-        }
+//        if (first == null) {
+//            first = new IntNode(x, null);
+//            return;
+//        }
         // 获取到头节点
-        IntNode p = first;
+        IntNode p = sentinel;
         // 循环遍历链表，直到p.next为null循环到链表的最后一个节点
-        while(p.next != null){
+        while (p.next != null) {
             p = p.next;
         }
         // 将新的元素插入到链表的最后一个节点
@@ -65,18 +74,20 @@ public class SLList {
 
     /**
      * 递归方式实现获取链表的长度
+     *
      * @param p
      * @return
      */
-    private static int sizeRecursion(IntNode p){
+    private static int sizeRecursion(IntNode p) {
         // 递归结束条件
-        if(p.next == null){
+        if (p.next == null) {
             return 1;
         }
         // 递归调用
         return 1 + sizeRecursion(p.next);
     }
-    public int size(){
+
+    public int size() {
         // 传入链表的头节点，计算链表的长度
 //        return sizeRecursion(first);// 递归形式
         // 使用缓存的形式
@@ -85,12 +96,13 @@ public class SLList {
 
     /**
      * 使用迭代方式实现获取链表的长度
+     *
      * @return 链表的长度
      */
-    public int sizeIteration(){
-        IntNode p = first;
+    public int sizeIteration() {
+        IntNode p = sentinel;
         int size = 0;
-        while (p != null){
+        while (p != null) {
             size += 1;
             p = p.next;
         }
@@ -100,14 +112,15 @@ public class SLList {
     /**
      * 打印链表
      */
-    public void print(){
-        IntNode p = first;
-        while(p != null){
+    public void print() {
+        IntNode p = sentinel;
+        while (p != null) {
             System.out.print(p.item + "=>");
             p = p.next;
         }
         System.out.println("null");
     }
+
     public static void main(String[] args) {
         // 创建一个SLList，值为15
 //        SLList L = new SLList(15);

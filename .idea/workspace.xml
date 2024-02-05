@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="51154f88-8854-459b-822f-b8832e9fa003" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/domain/SLList.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/domain/SLList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/target/classes/oi/pp/domain/SLList$IntNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/target/classes/oi/pp/domain/SLList$IntNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/target/classes/oi/pp/domain/SLList.class" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/target/classes/oi/pp/domain/SLList.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +163,7 @@
       <workItem from="1707053424525" duration="924000" />
       <workItem from="1707100682407" duration="2282000" />
       <workItem from="1707107931880" duration="2729000" />
-      <workItem from="1707111120524" duration="1609000" />
+      <workItem from="1707111120524" duration="2483000" />
     </task>
     <servers />
   </component>
