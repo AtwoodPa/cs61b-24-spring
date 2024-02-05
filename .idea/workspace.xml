@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51154f88-8854-459b-822f-b8832e9fa003" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/domain/IntNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/domain/SLList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/target/classes/oi/pp/domain/IntList.class" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/target/classes/oi/pp/domain/IntList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/domain/IntNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/domain/SLList.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/domain/SLList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/target/classes/oi/pp/domain/IntNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/target/classes/oi/pp/domain/SLList.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +44,7 @@
     "Application.IntList.executor": "Debug",
     "Application.Main.executor": "Run",
     "Application.PassByValueFigure.executor": "Run",
+    "Application.SLLTroubleMaker.executor": "Run",
     "Application.SLList.executor": "Run",
     "Application.VariableTest.executor": "Run",
     "Application.WalrusTest.executor": "Run",
@@ -66,7 +68,7 @@
       <recent name="$PROJECT_DIR$/doc/images" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SLList">
+  <component name="RunManager" selected="Application.SLLTroubleMaker">
     <configuration name="ElementaryDataTypeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oi.pp.test.ElementaryDataTypeTest" />
       <module name="chapter01" />
@@ -106,6 +108,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SLLTroubleMaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oi.pp.test.SLLTroubleMaker" />
+      <module name="chapter01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oi.pp.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SLList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oi.pp.domain.SLList" />
       <module name="chapter01" />
@@ -119,26 +134,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VariableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oi.pp.test.VariableTest" />
-      <module name="chapter01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oi.pp.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SLLTroubleMaker" />
         <item itemvalue="Application.SLList" />
         <item itemvalue="Application.IntList" />
         <item itemvalue="Application.PassByValueFigure" />
         <item itemvalue="Application.ElementaryDataTypeTest" />
-        <item itemvalue="Application.VariableTest" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +156,8 @@
       <workItem from="1705556917896" duration="1191000" />
       <workItem from="1705558293175" duration="43000" />
       <workItem from="1707012653355" duration="11364000" />
-      <workItem from="1707053424525" duration="760000" />
+      <workItem from="1707053424525" duration="924000" />
+      <workItem from="1707100682407" duration="1946000" />
     </task>
     <servers />
   </component>

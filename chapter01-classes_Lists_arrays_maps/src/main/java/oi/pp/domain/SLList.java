@@ -6,8 +6,19 @@ package oi.pp.domain;
  * @date 2024/02/04
  */
 public class SLList {
+    /* 定义一个内部类，用于存储数据（仅仅被SLList使用，因为没有其他人对IntNode进行引用） */
+    private static class IntNode {
+        public int item;
+        public IntNode next;
 
-    public IntNode first;
+        public IntNode(int i, IntNode n) {
+            item = i;
+            next = n;
+        }
+    }
+
+    /* 将first设为private，不向外暴露（访问控制，access control） */
+    private IntNode first;
 
     public SLList(int x) {
        first = new IntNode(x, null);
@@ -19,6 +30,7 @@ public class SLList {
     public int getFirst() {
         return first.item;
     }
+
     public static void main(String[] args) {
         // 创建一个SLList，值为15
         SLList L = new SLList(15);
