@@ -2,7 +2,7 @@ package oi.pp.domain;
 
 /**
  * Non-Naked Recursive Data StructureList
- *
+ * Single Linked List：单向链表
  * @author supanpan
  * @date 2024/02/04
  */
@@ -107,6 +107,17 @@ public class SLList {
             p = p.next;
         }
         return size;
+    }
+    public int remove(int i){
+        IntNode p = sentinel;
+        while (p != null){
+            if(p.next.item == i){
+                p.next = p.next.next;
+                return i;
+            }
+            p = p.next;
+        }
+        return -1;
     }
 
     /**
