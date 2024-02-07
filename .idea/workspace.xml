@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51154f88-8854-459b-822f-b8832e9fa003" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/domain/DLList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/test/ArrayTest01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/domain/SLList.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/domain/SLList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/target/classes/oi/pp/domain/SLList.class" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/target/classes/oi/pp/domain/SLList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/domain/AList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/domain/Planet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/test/AListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +55,7 @@
     "Application.SLList.executor": "Run",
     "Application.VariableTest.executor": "Run",
     "Application.WalrusTest.executor": "Run",
+    "JUnit.AListTest.testEmptySize.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -75,7 +76,7 @@
       <recent name="$PROJECT_DIR$/doc/images" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayTest01">
+  <component name="RunManager" selected="JUnit.AListTest.testEmptySize">
     <configuration name="ArrayTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oi.pp.test.ArrayTest01" />
       <module name="chapter01" />
@@ -91,19 +92,6 @@
     </configuration>
     <configuration name="DLList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oi.pp.domain.DLList" />
-      <module name="chapter01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oi.pp.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IntList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oi.pp.domain.IntList" />
       <module name="chapter01" />
       <extension name="coverage">
         <pattern>
@@ -141,13 +129,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AListTest.testEmptySize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chapter01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oi.pp.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="oi.pp.test" />
+      <option name="MAIN_CLASS_NAME" value="oi.pp.test.AListTest" />
+      <option name="METHOD_NAME" value="testEmptySize" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AListTest.testEmptySize" />
         <item itemvalue="Application.ArrayTest01" />
         <item itemvalue="Application.DLList" />
         <item itemvalue="Application.SLList" />
         <item itemvalue="Application.SLLTroubleMaker" />
-        <item itemvalue="Application.IntList" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +170,8 @@
       <workItem from="1707053424525" duration="924000" />
       <workItem from="1707100682407" duration="2282000" />
       <workItem from="1707107931880" duration="2729000" />
-      <workItem from="1707111120524" duration="7152000" />
+      <workItem from="1707111120524" duration="7541000" />
+      <workItem from="1707267986757" duration="3363000" />
     </task>
     <servers />
   </component>
@@ -191,11 +196,6 @@
           <url>file://$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/domain/DLList.java</url>
           <line>48</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/test/ArrayTest01.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-defaults>
