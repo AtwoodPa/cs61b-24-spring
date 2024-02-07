@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51154f88-8854-459b-822f-b8832e9fa003" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/domain/AList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/domain/Planet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/test/AListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/debug/DebugExercise1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/debug/DebugExercise2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/sort/select_sort/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/sort/select_sort/TestSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/domain/AList.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/domain/AList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/domain/SLList.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/domain/SLList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/target/classes/oi/pp/domain/AList.class" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/target/classes/oi/pp/domain/AList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/target/classes/oi/pp/domain/SLList.class" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/target/classes/oi/pp/domain/SLList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/target/classes/oi/pp/test/AListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/target/classes/oi/pp/test/AListTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +51,7 @@
     "Application.ArgsDemo.executor": "Run",
     "Application.ArrayTest01.executor": "Debug",
     "Application.DLList.executor": "Debug",
+    "Application.DebugExercise1.executor": "Debug",
     "Application.Dog.executor": "Run",
     "Application.ElementaryDataTypeTest.executor": "Run",
     "Application.IntList.executor": "Debug",
@@ -53,6 +59,7 @@
     "Application.PassByValueFigure.executor": "Run",
     "Application.SLLTroubleMaker.executor": "Run",
     "Application.SLList.executor": "Run",
+    "Application.TestSort.executor": "Run",
     "Application.VariableTest.executor": "Run",
     "Application.WalrusTest.executor": "Run",
     "JUnit.AListTest.testEmptySize.executor": "Run",
@@ -67,7 +74,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "通义灵码",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -76,7 +83,7 @@
       <recent name="$PROJECT_DIR$/doc/images" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AListTest.testEmptySize">
+  <component name="RunManager" selected="Application.TestSort">
     <configuration name="ArrayTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oi.pp.test.ArrayTest01" />
       <module name="chapter01" />
@@ -103,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SLLTroubleMaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oi.pp.test.SLLTroubleMaker" />
+    <configuration name="DebugExercise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oi.pp.debug.DebugExercise1" />
       <module name="chapter01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oi.pp.test.*" />
+          <option name="PATTERN" value="oi.pp.debug.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SLList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oi.pp.domain.SLList" />
+    <configuration name="TestSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oi.pp.sort.select_sort.TestSort" />
       <module name="chapter01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oi.pp.domain.*" />
+          <option name="PATTERN" value="oi.pp.sort.select_sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestSort" />
+        <item itemvalue="Application.DebugExercise1" />
         <item itemvalue="JUnit.AListTest.testEmptySize" />
         <item itemvalue="Application.ArrayTest01" />
         <item itemvalue="Application.DLList" />
-        <item itemvalue="Application.SLList" />
-        <item itemvalue="Application.SLLTroubleMaker" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +178,7 @@
       <workItem from="1707100682407" duration="2282000" />
       <workItem from="1707107931880" duration="2729000" />
       <workItem from="1707111120524" duration="7541000" />
-      <workItem from="1707267986757" duration="3363000" />
+      <workItem from="1707267986757" duration="11608000" />
     </task>
     <servers />
   </component>
@@ -196,6 +203,16 @@
           <url>file://$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/domain/DLList.java</url>
           <line>48</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/debug/DebugExercise1.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/debug/DebugExercise1.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-defaults>

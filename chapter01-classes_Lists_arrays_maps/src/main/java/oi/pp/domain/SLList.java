@@ -120,6 +120,16 @@ public class SLList {
         return -1;
     }
 
+    public void insert(int item, int position){
+        IntNode p = sentinel;
+        while (position > 0){
+            p = p.next;
+            position -= 1;
+        }
+        IntNode newNode = new IntNode(item, p.next);
+        p.next = newNode;
+    }
+
     /**
      * 打印链表
      */

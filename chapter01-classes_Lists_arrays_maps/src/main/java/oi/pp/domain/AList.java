@@ -14,9 +14,19 @@ public class AList<Item> {
         items = (Item[]) new Object[100];
         size = 0;
     }
+    /** Resizes the underlying array to the target capacity. */
+    private void resize(int capacity) {
+        Item[] a = (Item[]) new Object[capacity];
+        System.arraycopy(items, 0, a, 0, size);
+        items = a;
+    }
 
     /** Inserts X into the back of the list. */
     public void addLast(Item x) {
+        if (size == items.length) {
+            resize(size + 1);
+        }
+
         items[size] = x;
         size = size + 1;
     }
@@ -39,7 +49,7 @@ public class AList<Item> {
      * returns deleted item. */
     public Item removeLast() {
         Item x = getLast();
-        items[size - 1] = null;
+         items[size - 1] = null;// 避免内存泄漏
         size = size - 1;
         return x;
     }
