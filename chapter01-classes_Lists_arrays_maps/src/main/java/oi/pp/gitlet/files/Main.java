@@ -3,6 +3,8 @@ import oi.pp.gitlet.Utils;
 import java.io.File;
 import java.io.IOException;
 
+import static oi.pp.gitlet.Utils.writeObject;
+
 /**
  * @author supanpan
  * @date 2024/02/08
@@ -27,5 +29,10 @@ public class Main {
 
         File d = new File(CWD, "dummy");
         d.mkdir();// 创建目录
+
+        Utils.writeObject(new File(d, "model.ser"), new Model("supanpan"));
+
+        Model m = Utils.readObject(new File(d, "model.ser"), Model.class);
+        System.out.println(m.getName());
     }
 }

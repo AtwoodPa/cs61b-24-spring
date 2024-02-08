@@ -148,9 +148,10 @@ public class Utils {
     /**
      * Return an object of type T read from FILE, casting it to EXPECTEDCLASS.
      * Throws IllegalArgumentException in case of problems.
+     * 从文件中读取对象
      */
-    static <T extends Serializable> T readObject(File file,
-                                                 Class<T> expectedClass) {
+    public static <T extends Serializable> T readObject(File file,
+                                                        Class<T> expectedClass) {
         try {
             ObjectInputStream in =
                     new ObjectInputStream(new FileInputStream(file));
@@ -165,8 +166,9 @@ public class Utils {
 
     /**
      * Write OBJ to FILE.
+     * 将对象写入文件
      */
-    static void writeObject(File file, Serializable obj) {
+    public static void writeObject(File file, Serializable obj) {
         writeContents(file, serialize(obj));
     }
 
