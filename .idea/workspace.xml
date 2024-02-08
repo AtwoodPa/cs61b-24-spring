@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51154f88-8854-459b-822f-b8832e9fa003" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/gitlet/files/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/gitlet/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/gitlet/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/gitlet/files/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/gitlet/files/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/gitlet/Blob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/gitlet/MyUtiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/gitlet/Stage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/gitlet/Commit.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/gitlet/Commit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/gitlet/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/gitlet/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/gitlet/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/gitlet/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dummy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dummy/model.ser" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +38,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -57,6 +65,7 @@
     "Application.TestSort.executor": "Run",
     "Application.VariableTest.executor": "Run",
     "Application.WalrusTest.executor": "Run",
+    "Application.oi.pp.gitlet.Main.executor": "Run",
     "Application.oi.pp.gitlet.files.Main.executor": "Run",
     "JUnit.AListTest.testEmptySize.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -82,8 +91,11 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/doc/images" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="oi.pp.gitlet" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.oi.pp.gitlet.files.Main">
+  <component name="RunManager" selected="Application.oi.pp.gitlet.Main">
     <configuration name="DebugExercise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oi.pp.debug.DebugExercise1" />
       <module name="chapter01" />
@@ -123,6 +135,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="oi.pp.gitlet.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oi.pp.gitlet.Main" />
+      <module name="chapter01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oi.pp.gitlet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="oi.pp.gitlet.files.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oi.pp.gitlet.files.Main" />
       <module name="chapter01" />
@@ -136,29 +161,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AListTest.testEmptySize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="chapter01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oi.pp.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="oi.pp.test" />
-      <option name="MAIN_CLASS_NAME" value="oi.pp.test.AListTest" />
-      <option name="METHOD_NAME" value="testEmptySize" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.oi.pp.gitlet.Main" />
         <item itemvalue="Application.oi.pp.gitlet.files.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.TestSort" />
         <item itemvalue="Application.DebugExercise1" />
-        <item itemvalue="JUnit.AListTest.testEmptySize" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +189,7 @@
       <workItem from="1707111120524" duration="7541000" />
       <workItem from="1707267986757" duration="17033000" />
       <workItem from="1707311876671" duration="206000" />
-      <workItem from="1707355970351" duration="3678000" />
+      <workItem from="1707355970351" duration="10549000" />
     </task>
     <servers />
   </component>
