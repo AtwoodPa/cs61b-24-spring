@@ -5,15 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51154f88-8854-459b-822f-b8832e9fa003" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/debug/DebugExercise1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/debug/DebugExercise2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/sort/select_sort/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/sort/select_sort/TestSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/domain/AList.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/domain/AList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/domain/SLList.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/domain/SLList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/target/classes/oi/pp/domain/AList.class" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/target/classes/oi/pp/domain/AList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/target/classes/oi/pp/domain/SLList.class" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/target/classes/oi/pp/domain/SLList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/target/classes/oi/pp/test/AListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/target/classes/oi/pp/test/AListTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/gitlet/Commit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/gitlet/DumpObj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/gitlet/Dumpable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/gitlet/GitletException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/gitlet/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/gitlet/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/gitlet/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/gitlet/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/gitlet/files/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/gitlet/sentinel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/inheritance/List61B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/target/classes/oi/pp/sort/select_sort/SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/target/classes/oi/pp/sort/select_sort/SelectionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/target/classes/oi/pp/sort/select_sort/TestSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/target/classes/oi/pp/sort/select_sort/TestSort.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -55,19 +60,21 @@
     "Application.Dog.executor": "Run",
     "Application.ElementaryDataTypeTest.executor": "Run",
     "Application.IntList.executor": "Debug",
-    "Application.Main.executor": "Run",
+    "Application.Main.executor": "Debug",
     "Application.PassByValueFigure.executor": "Run",
     "Application.SLLTroubleMaker.executor": "Run",
     "Application.SLList.executor": "Run",
     "Application.TestSort.executor": "Run",
     "Application.VariableTest.executor": "Run",
     "Application.WalrusTest.executor": "Run",
+    "Application.oi.pp.gitlet.files.Main.executor": "Run",
     "JUnit.AListTest.testEmptySize.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Library/PP/Java/github/cs61b-24-spring/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/gitlet",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -79,37 +86,14 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/chapter01-classes_Lists_arrays_maps/src/main/java/oi/pp/gitlet" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/doc/images" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestSort">
-    <configuration name="ArrayTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oi.pp.test.ArrayTest01" />
-      <module name="chapter01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oi.pp.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DLList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oi.pp.domain.DLList" />
-      <module name="chapter01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oi.pp.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.oi.pp.gitlet.files.Main">
     <configuration name="DebugExercise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oi.pp.debug.DebugExercise1" />
       <module name="chapter01" />
@@ -123,12 +107,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oi.pp.files.Main" />
+      <module name="chapter01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oi.pp.files.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oi.pp.sort.select_sort.TestSort" />
       <module name="chapter01" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="oi.pp.sort.select_sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="oi.pp.gitlet.files.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oi.pp.gitlet.files.Main" />
+      <module name="chapter01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oi.pp.gitlet.files.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.oi.pp.gitlet.files.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.TestSort" />
         <item itemvalue="Application.DebugExercise1" />
         <item itemvalue="JUnit.AListTest.testEmptySize" />
-        <item itemvalue="Application.ArrayTest01" />
-        <item itemvalue="Application.DLList" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +188,9 @@
       <workItem from="1707100682407" duration="2282000" />
       <workItem from="1707107931880" duration="2729000" />
       <workItem from="1707111120524" duration="7541000" />
-      <workItem from="1707267986757" duration="11608000" />
+      <workItem from="1707267986757" duration="17033000" />
+      <workItem from="1707311876671" duration="206000" />
+      <workItem from="1707355970351" duration="3097000" />
     </task>
     <servers />
   </component>
